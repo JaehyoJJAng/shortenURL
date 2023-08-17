@@ -11,6 +11,6 @@ def generate_rand_ints(num: int) -> list[int]:
 def encode_rand_ints(randInts: list[int]) -> str:
     return ''.join([encoding_lookup[num] for num in randInts])
 
-def generate_rand_token(num: int):
+def generate_rand_token(num: int) -> str:
     rand_ints : list[int] = generate_rand_ints(num)
     return encode_rand_ints(rand_ints)
