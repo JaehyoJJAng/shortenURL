@@ -17,10 +17,10 @@
 **도커 환경에서 사용 시 아래 가이드를 읽고 따라해주세요**
 
 ## 1. install project
-    `git clone https://github.com/JaehyoJJAng/shortenURL.git`
+`git clone https://github.com/JaehyoJJAng/shortenURL.git`
 
 ## 2. run app
-    `docker-compose up -d --build`
+`docker-compose up -d --build`
 
 <br>
 
@@ -29,10 +29,10 @@
 **로컬 환경에서 사용 시 아래 가이드를 읽고 따라해주세요.**
 
 ## install project
-    `git clone https://github.com/JaehyoJJAng/shortenURL.git`
+`git clone https://github.com/JaehyoJJAng/shortenURL.git`
 
 ### install dependency
-    `docker-compose up -d --build `
+`docker-compose up -d --build `
 
 ## run app
-    uvicorn main:app --reload
+`uvicorn main:app --reload --host=0.0.0.0 --port=8000`
