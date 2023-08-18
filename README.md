@@ -32,7 +32,7 @@
 `git clone https://github.com/JaehyoJJAng/shortenURL.git`
 
 ### install dependency
-`docker-compose up -d --build `
+`pip install -r requirements/requirements.txt`
 
 ## run app
-`uvicorn main:app --reload --host=0.0.0.0 --port=8000`
+`uvicorn main:app --reload --host=0.0.0.0 --port=80`
